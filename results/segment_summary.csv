@@ -1,0 +1,5 @@
+segment,train_count,test_count,all_count,train_below_20,train_below_20_share,train_net_if_credit,all_below_20,all_at_least_20,all_mean_extras,gets_credit,all_baseline_net,all_v1_net
+New occasional visitors,46,24,70,38,0.8260869565,110,59,11,9.3000000000,True,185,185
+Class-focused spenders,61,30,91,1,0.0163934426,-595,1,90,46.9340659341,False,-895,0
+Long-tenure regulars,45,15,60,27,0.6000000000,-45,37,23,16.3500000000,False,-45,0
+Frequent independent users,79,30,109,31,0.3924050633,-325,43,66,24.5963302752,False,-445,0

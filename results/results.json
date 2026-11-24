@@ -1,0 +1,100 @@
+{
+  "data_sha256": "2503d59b1ddfa38502aeee2b87c81e931ab06bc7edd77bebc3577bc9544c84ad",
+  "rows": 330,
+  "mean_monthly_extras": 26.01212121212121,
+  "features": [
+    "age",
+    "visits_per_month",
+    "avg_visit_minutes",
+    "classes_per_month",
+    "months_member",
+    "monthly_extras_spend"
+  ],
+  "excluded": [
+    "member_id"
+  ],
+  "random_seed": 42,
+  "k": 4,
+  "n_init": 50,
+  "train_rows": 231,
+  "test_rows": 99,
+  "test_sse_baseline": 600.7302631597036,
+  "test_sse_v1": 149.9843387794104,
+  "test_spread_reduction_pct": 75.0329976734438,
+  "new_member_features": {
+    "age": 30,
+    "visits_per_month": 4,
+    "avg_visit_minutes": 42,
+    "classes_per_month": 1,
+    "months_member": 5,
+    "monthly_extras_spend": 10
+  },
+  "new_member_decision": {
+    "segment": "New occasional visitors",
+    "gets_credit": true
+  },
+  "monthly_economics": [
+    {
+      "population": "all",
+      "members": 330,
+      "baseline_recipients": 330,
+      "v1_recipients": 70,
+      "baseline_credit_cost": 3300,
+      "v1_credit_cost": 700,
+      "baseline_incremental_margin": 2100,
+      "v1_incremental_margin": 885,
+      "baseline_net": -1200,
+      "v1_net": 185,
+      "improvement": 1385
+    },
+    {
+      "population": "train",
+      "members": 231,
+      "baseline_recipients": 231,
+      "v1_recipients": 46,
+      "baseline_credit_cost": 2310,
+      "v1_credit_cost": 460,
+      "baseline_incremental_margin": 1455,
+      "v1_incremental_margin": 570,
+      "baseline_net": -855,
+      "v1_net": 110,
+      "improvement": 965
+    },
+    {
+      "population": "test",
+      "members": 99,
+      "baseline_recipients": 99,
+      "v1_recipients": 24,
+      "baseline_credit_cost": 990,
+      "v1_credit_cost": 240,
+      "baseline_incremental_margin": 645,
+      "v1_incremental_margin": 315,
+      "baseline_net": -345,
+      "v1_net": 75,
+      "improvement": 420
+    }
+  ],
+  "training_scaler_mean": [
+    40.523809523809526,
+    10.913419913419913,
+    53.77056277056277,
+    3.064935064935065,
+    29.09090909090909,
+    26.17748917748918
+  ],
+  "training_scaler_scale": [
+    13.779905541872905,
+    5.1716293991211835,
+    12.03725095301249,
+    2.8330348511172447,
+    18.152443803980514,
+    17.806769827917368
+  ],
+  "versions": {
+    "python": "3.12.9",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.5.1",
+    "matplotlib": "3.9.2"
+  }
+}

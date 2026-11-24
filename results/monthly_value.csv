@@ -1,0 +1,4 @@
+population,members,baseline_recipients,v1_recipients,baseline_credit_cost,v1_credit_cost,baseline_incremental_margin,v1_incremental_margin,baseline_net,v1_net,improvement
+all,330,330,70,3300,700,2100,885,-1200,185,1385
+train,231,231,46,2310,460,1455,570,-855,110,965
+test,99,99,24,990,240,645,315,-345,75,420
